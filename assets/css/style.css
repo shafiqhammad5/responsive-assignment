@@ -1,0 +1,285 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@300;400;500;700;900&display=swap');
+
+
+/* ========== common css ============ */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  transition: all .3s;
+}
+.mb-10 {
+  margin-bottom: 10px;
+}
+.mb-15 {
+  margin-bottom: 15px;
+}
+.mb-20 {
+  margin-bottom: 20px;
+}
+.mb-25 {
+  margin-bottom: 25px;
+}
+.mb-30 {
+  margin-bottom: 30px;
+}
+
+/* =========== header css ============ */
+.header {
+  padding: 10px 0;
+  background: #fffff4;
+  position: fixed;
+  width: 100%;
+}
+
+.navbar-brand img {
+  max-width: 200px;
+}
+
+.navbar-nav .nav-item .nav-link {
+  font-weight: 500;
+  font-size: 16px;
+  color: #3c3c3c;
+  margin-right: 55px;
+}
+.navbar-nav .nav-item:last-child .nav-link {
+  margin-right: 0;
+}
+
+.navbar-nav .nav-item .nav-link.active,
+.navbar-nav .nav-item .nav-link:hover {
+  color: #76C27E;
+}
+
+/* ============ hero css ============ */
+.hero-section {
+  background: #FFFFF4;
+  padding: 120px 0px 120px;
+}
+
+.hero-content h1 {
+  font-family: Bebas Neue;
+  font-weight: bold;
+  font-size: 80px;
+  color: #363958;
+}
+.hero-content h1 span {
+  color: #76C27E;
+  display: block;
+}
+.main-btn {
+  background: #2A1E59;
+  border-radius: 10px;
+  font-weight: 500;
+  color: #ffffff;
+  padding: 18px 33px;
+  text-transform: uppercase;
+  display: inline-block;
+}
+
+.main-btn i {
+  margin-right: 10px;
+}
+.main-btn:hover {
+  color: #ffffff;
+  background: #76C27E;
+}
+
+/* =========== feature css ============ */
+
+.single-feature {
+  background: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05);
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  padding: 25px 40px;
+}
+.single-feature .image {
+  max-width: 78px;
+  width: 100%;
+  height: 82px;
+  margin-right: 25px;
+}
+.feature-content h4 {
+  font-size: 24px;
+  color: #363958;
+}
+
+.feature-content p {
+  margin-bottom: 0px;
+} 
+
+
+/* ============ products css */
+.products-section {
+  padding-top: 120px;
+}
+.products-section-two {
+  padding-top: 90px;
+}
+
+.title h2 {
+  font-family: Bebas Neue;
+  font-weight: bold;
+  font-size: 48px;
+  color: #363958;
+  margin: 0;
+  margin-bottom: 30px;
+}
+
+.single-product {
+  background: #FFFFFF;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05);
+  border-radius: 20px;
+  padding: 20px;
+  margin-bottom: 30px;
+}
+.product-image {
+  background: #F1F1F1;
+  border-radius: 20px;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+.product-content h4 a {
+  font-weight: bold;
+  font-size: 24px;
+  color: #363958;
+  margin: 0;
+  margin-bottom: 15px;
+}
+.product-content h4 a:hover {
+  color: #76C27E;
+}
+.product-action .price {
+  font-weight: 900;
+  font-size: 36px;
+  color: #76C27E;
+  margin: 10px 0;
+}
+
+/* ========== offer section css =========== */
+
+.offer-section {
+  margin-top: 70px;
+  padding: 100px 0;
+  background: #fffff4;
+}
+.offer-wrapper {
+  background: #FFFFFF;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05);
+  border-radius: 20px;
+  padding: 60px 30px;
+  align-items: center;
+  justify-content: space-between;
+}
+.offer-wrapper h3 {
+  font-size: 40px;
+  margin: 0;
+  padding: 20px 20px 20px 0px;
+  font-weight: 700;
+}
+.offer-wrapper h3 span {
+  color: #76C27E;
+  font-weight: 900;
+}
+.offer-wrapper .main-btn {
+  background: #76C27E;
+}
+.offer-wrapper .main-btn:hover {
+  background: #2A1E59;
+}
+/* =========== footer ============= */
+.footer-wrapper {
+  padding: 120px 0 50px;
+}
+
+.footer-widget .logo {
+  margin-bottom: 30px;
+}
+
+.footer-widget .logo img {
+  max-width: 200px;
+}
+.socials {
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+
+.socials li a {
+  width: 40px;
+  height: 40px;
+  border-radius: 3px;
+  background: #2A1E59;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+}
+.socials li a:hover {
+  background: #76C27E;
+}
+.footer-widget h4 {
+  margin: 20px 0;
+}
+
+.links {
+  padding: 0;
+  list-style: none;
+}
+
+.links li a {
+  display: inline-block;
+  margin-bottom: 10px;
+  color: #2A1E59;
+  font-size: 20px;
+}
+.links li a:hover {
+  color: #76C27E;
+  padding-left: 10px;
+}
+.newslatter-form {
+  position: relative;
+}
+.newslatter-form input {
+  width: 100%;
+  height: 50px;
+  border: 2px solid #999999;
+  border-radius: 4px;
+  padding: 0 20px;
+}
+.newslatter-form button {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 60px;
+  height: 50px;
+  border: 2px solid transparent;
+  background: #2A1E59;
+  border-radius: 4px;
+  color: #ffffff;
+  transition: all .3s;
+  font-size: 20px;
+}
+.newslatter-form button:hover {
+  background: #76C27E;
+}
+
+.copy-right {
+  background-color: #fffff4;
+  padding: 20px 0;
+}
+.copy-right p a {
+  color: #2A1E59;
+}
+.copy-right p a:hover {
+  color: #76C27E;
+}
